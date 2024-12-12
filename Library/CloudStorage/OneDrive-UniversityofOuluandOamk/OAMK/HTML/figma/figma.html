@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <style>
+        .figma{
+            width: 35px;
+            height: auto;
+        }
+        .arrow{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: gray;
+            width: 30px;
+            height: 30px;
+            border: 1px solid #e0ebd1;
+            border-radius: 50%;
+            margin: 4px;
+            padding: 2px;
+        }
+        .navbar{
+            display: flex;
+            position: fixed;
+            top: 0;
+            background-color: white;
+            width: 100%;
+            justify-content: space-between;     
+        } 
+     
+       .login{
+            display: flex;
+            background: none;
+            border-width: thin;
+            border-radius: 5px;
+            border-style: solid;
+            border-color: black;
+            padding: 10px;
+            margin: 10px;
+       }
+       .get{
+            display: flex;
+            background: black;
+            color: aliceblue;
+            border-width: thin;
+            border-radius: 5px;
+            padding: 10px;
+       }
+       .body{
+            background-color: #f3ffe2;
+            margin-top: 11vh;
+            margin-left: 80px;
+       }
+       .image{
+            height: 19.38rem;
+       }
+       .service{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px; 
+       }
+       .service_container{
+            display: flex;
+            justify-content: space-between;
+       }
+       .service_img{
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            padding-right: 20px;
+       }
+       body{
+            background-color: #f3ffe2;
+        }
+        .nav_left{
+            display: flex;
+            flex-grow: 2;
+            align-items: center;
+            margin-left: 74px;
+        }
+        .nav_right{
+            display: flex;
+            align-items: center;
+            margin-right: 20vw;
+        }
+        .item{
+            padding: 10px;
+        }
+        .para{
+            font-size: 2.3em;
+            margin-right: 50px;
+            margin-bottom: 15px;
+        }
+        .para_box{
+            width: 50vw;
+        }
+        .page{
+            font-size: 1em;
+        }
+        .content_container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 23vw;
+        }
+        .content_arrows{
+            display: flex;
+            align-items: center;
+        }
+        .underline{
+            width: fit-content;
+            border-bottom: 1px solid;
+        }
+
+    </style>
+    <body>
+        <div>    
+            <div class="navbar">  
+                <div class="nav_left">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="Figma icon" class="figma">    
+                    <div class="item">Products</div>
+                    <div class="item">Solutions</div>
+                    <div class="item">Community</div>
+                    <div class="item">Resources</div>
+                    <div class="item">Pricing</div>
+                </div>
+
+                <div class="nav_right">
+                    <div class="item">Contact sales</div>
+                    <div class="login">Log in</div>
+                    <div class="get">Get started for free</div>  
+                </div>                                                    
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="para_box">            
+                <p class="para"><b>Bring design and dev together.</b> Easily translate designs into code with a workflow built for developers.<p>
+            </div>
+            <div class="content_container">
+                <p>1/4</p>
+                <div class="content_arrows">
+                    <div class="arrow"><p>&#8592</p></div>
+                    <div class="arrow"><p>&#8594</p></div>
+                </div>
+            </div>    
+            <div class="service">
+                <div class="service_img">
+                    <img src="iconfigma.png" class="image">
+                    <p style="margin-bottom: 0;"><b>Design systems that scale. </b>Streamline the product development process with a design system that's aligned across design and code.</p>
+                    <p class="underline">Learn about design systems</p>
+                </div>
+                <div class="service_img">
+                    <img src="croissant.png" class="image">
+                    <p style="margin-bottom: 0;"><b>Keep design and code connected. </b>Bring your component code into Dev Mode so developers get the right code, every time.</p>
+                    <p class="underline">Learn about Dev Mode</p>
+                </div>
+                <div class="service_img">
+                    <img src="focus.png" class="image">
+                    <p><b>Focus on the details in Focus View. </b>Select and inspect a specific design in Dev Mode, then dig into the details in Focus View so you know exactly what to build.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
