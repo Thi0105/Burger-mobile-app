@@ -6,5 +6,5 @@ Feature:
 - User-friendly interface
 - Order tracking: Keep tabs on your burger order from preparation to delivery
 
-Techonolies:
+Technologies:
 - HTML and CSS
