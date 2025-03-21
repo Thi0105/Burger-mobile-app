@@ -1,5 +1,5 @@
 # Burger-mobile-app
-This is a user-friendly mobile application designed for burger lover. This app allow users to browse, customize, and order their favourite burgers.
+This is a user-friendly mobile application designed for burger lover. This app allows users to browse, customize, and order their favourite burgers.
 
 Feature:
 - Customize burger options: Select from a variety of ingredients to create your burger
